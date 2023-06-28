@@ -13,7 +13,7 @@ namespace genvrp {
     /** This class models a Genetic Algorithm solver. */
     class Genetic {
         /** Reference to the problem parameters and data. */
-        Params& params;
+        Params& params;//A &ra是创建A的一个引用
 
         /** Reference to the splitter object, used to optimally obtain routes from a giant-tour representation. */
         Split split;
